@@ -1,0 +1,29 @@
+name: insightFace
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - ca-certificates=2020.12.5=ha878542_0
+  - certifi=2020.12.5=py36h5fab9bb_1
+  - cudatoolkit=10.1.243=h036e899_8
+  - libgcc-ng=9.3.0=h2828fa1_19
+  - libgomp=9.3.0=h2828fa1_19
+  - libstdcxx-ng=9.3.0=h6de172a_19
+  - ncurses=5.9=10
+  - openssl=1.0.2u=h516909a_0
+  - pip=21.0.1=pyhd8ed1ab_0
+  - python=3.6.0=2
+  - python_abi=3.6=1_cp36m
+  - readline=6.2=0
+  - setuptools=49.6.0=py36h5fab9bb_3
+  - sqlite=3.13.0=1
+  - tk=8.5.19=2
+  - wheel=0.36.2=pyhd3deb0d_0
+  - xz=5.2.5=h516909a_1
+  - zlib=1.2.11=h516909a_1010
+  - pip:
+    - chardet==3.0.4
+    - mxnet-cu101==1.5.1
+prefix: /home/bmabir/miniconda3/envs/insightFace
