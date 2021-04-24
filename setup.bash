@@ -5,3 +5,4 @@ git clone https://github.com/deepinsight/insightface.git
 # pip3 install mmdnn
 cd insightface/python-package
 python -m pip install -e .
+python setup.py
