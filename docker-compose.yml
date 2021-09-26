@@ -1,0 +1,9 @@
+version: '3'
+services:
+  insightface_api:
+      image: ghcr.io/bmabir17/deploy_insightface:v1
+      runtime: nvidia
+      environment:
+      - PORT=5000
+      ports:
+        - "5000:5000"
